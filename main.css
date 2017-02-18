@@ -1,0 +1,153 @@
+/*
+* Style tweaks
+* --------------------------------------------------
+*/
+html,
+body {
+    overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+body {
+    padding-top: 100px;
+    overflow: hidden;
+}
+footer {
+    padding: 30px 0;
+}
+
+/*
+ * Custom styles
+ */
+.navbar-brand {
+    font-size: 24px;
+    
+}
+
+.navbar-container {
+    padding: 20px 0 20px 0;
+}
+
+.navbar.navbar-fixed-top.fixed-theme {
+    background-color: #fff;
+    /* border-color: #080808; */
+    /* box-shadow: 0 0 5px rgba(0,0,0,.8); */
+}
+
+
+
+.navbar-brand.fixed-theme {
+    font-size: 18px;
+   ;
+}
+
+.navbar-container.fixed-theme {
+    top: -30px;
+    padding: 0;
+}
+
+.navbar-right.fixed-theme{
+    position: relative;
+    top: -15px;
+}
+
+.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.navbar-fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container{
+    transition: 0.8s;
+    -webkit-transition:  0.8s;
+}
+.navbar-nav {
+    
+}
+
+#navbar {
+    margin-top: 30px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.myButton {
+	background-color:#ffffff;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	border:1px solid #2D2A3F;
+	display:inline-block;
+	cursor:pointer;
+	color:#2D2A3F;
+    font: normal normal normal 14px/1.4em raleway,sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-size:14px;
+	padding:5px 25px;
+	text-decoration:none;
+    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+.myButton:hover {
+	background-color:#eb734d;
+    border:1px solid #eb734d;
+    color: #ffffff;
+    text-shadow: none;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+#header-container {
+    width: 980px;
+}
+
+.logintext {
+    font: normal normal normal 14px/1.4em raleway,sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-size:14px;
+    padding: 5px 20px;
+    letter-spacing: 0.1em;
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+
+
+video#bgvid { 
+    position: absolute;
+
+    min-width:100%;
+    
+    background-size: cover; 
+}
+
+#vidbanner {
+    position:relative;
+    overflow:hidden;
+    top: 30px;
+    width: 100%;
+    
+    height:600px;
+    
+}
+
+#graybar {
+    position: relative;
+    top: 0px;
+    height: 50px;
+    background-color: #ccc;
+    
+}
+
+#bartext {
+    position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    vertical-align: middle;
+    color: #2d2a3f;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    
+}
