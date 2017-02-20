@@ -155,6 +155,7 @@ video#bgvid {
 #computerimage {
     margin-top: 0px;
     max-width: 500px;
+    min-width: 500px;
     margin-left: 30px;
     text-align: left;
 }
@@ -190,4 +191,9 @@ video#bgvid {
 
 #compgif {
     padding-top: 60px;
+}
+
+#bannertext {
+    min-width:200px;
+    max-width:400px;
 }
