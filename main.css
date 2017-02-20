@@ -151,3 +151,43 @@ video#bgvid {
     letter-spacing: 0.1em;
     
 }
+
+#computerimage {
+    margin-top: 0px;
+    max-width: 500px;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.tagline {
+    
+    font-family: Raleway;
+	font-size: 45px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 58px;
+    color: #fbd78b;
+}
+
+
+
+#text {
+    padding-top:70px;
+}
+
+#description {
+    font-family: Raleway;
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 15px;
+    color: #fff;
+}
+
+
+
+#compgif {
+    padding-top: 60px;
+}
