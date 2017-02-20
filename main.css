@@ -213,3 +213,7 @@ video#bgvid {
     position: relative;
     top: -5px;
 }
+
+#header-container {
+    max-width:800px;
+}
