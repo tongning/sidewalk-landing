@@ -9,7 +9,7 @@ $(document).ready(function(){
 var myNavBar = {
 
     flagAdd: true,
-
+    menuactive: false,
     elements: [],
 
     init: function (elements) {
@@ -60,14 +60,29 @@ function offSetManager(){
     var yOffset = 0;
     var currYOffSet = window.pageYOffset;
 
-    if(yOffset < currYOffSet) {
+    if(yOffset < currYOffSet || myNavBar.menuactive) {
         myNavBar.add();
     }
-    else if(currYOffSet == yOffset){
+    else if(currYOffSet == yOffset && !myNavBar.menuactive){
         myNavBar.remove();
     }
 
 }
+    
+document.getElementById("menubutton").addEventListener("click", function(){
+    console.log("clicked");
+    if(!myNavBar.menuactive){
+       
+        myNavBar.menuactive = true;
+        offSetManager();
+    }
+    else{
+        
+        myNavBar.menuactive = false;
+        offSetManager();
+    }
+    
+});
 
 /**
  * bind to the document scroll detection

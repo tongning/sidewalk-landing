@@ -96,9 +96,7 @@ footer {
 }
 
 
-#header-container {
-    width: 980px;
-}
+
 
 .logintext {
     font: normal normal normal 14px/1.4em raleway,sans-serif;
@@ -197,3 +195,5 @@ video#bgvid {
     min-width:200px;
     max-width:400px;
 }
+
+
