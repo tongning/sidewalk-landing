@@ -130,7 +130,7 @@ video#bgvid {
     top: 0px;
     width: 100%;
     
-    min-height:600px;
+    min-height:500px;
     
 }
 
@@ -366,8 +366,16 @@ float: center;
 }
 
 #count-container {
+    
     position: relative;
     top: 50px;
+    background-image: url(orange-map.PNG); 
+    width:100%;
+    position:relative;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+        
 }
 
 .numbers-largefont {
@@ -457,4 +465,32 @@ float: center;
     height: 300px;
     background-image: url(footer-image.webp);
      display: flex; justify-content: center;
+    color: #ccc;
+    font-size: 12px;
+    line-height: 1.8em;
+    font-family: raleway;
+    
+    
+}
+
+.footerheader {
+    font-family: raleway;
+    color: #848383;
+    font-size: 12px;
+    line-height: 2.1em;
+    letter-spacing: 0.05em;
+    
+}
+
+#info-footer {
+    width: 100%;
+    height: 90px;
+    padding-top: 30px;
+    background-color: rgba(120, 201, 171, 1);
+    text-align: center;
+    font-family: raleway;
+    font-size: 12px;
+    color: #2d2a3f;
+    line-height: 1.6em;
+    
 }
