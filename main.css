@@ -217,3 +217,205 @@ video#bgvid {
 #header-container {
     max-width:800px;
 }
+
+.im-centered {
+     margin: auto; max-width: 400px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: Raleway;
+	font-size: 45px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 50px;
+    color: #2D2A3F;
+
+}
+
+
+
+
+
+#steps1 {
+    padding-top: 100px;
+  
+}
+
+.stepnumber {
+    font-family: Raleway;
+	font-size: 45px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 58px;
+    color: #EB734D;
+}
+
+.stepword {
+    padding-left: 25px;
+    font-family: Raleway;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 58px;
+    color: #2D2A3F;
+    
+}
+
+
+
+
+
+#step2right {
+  
+float: center;
+  
+}
+
+#content-text {
+    font-family: Raleway;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 20px;
+    
+}
+
+#algdessc {
+    font-family: Raleway;
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 15px;
+}
+
+#aidesc {
+    position:relative;
+    top:-60px;
+    font-family: Raleway;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 10px;
+}
+
+.im-centered2 {
+ 
+     margin: auto; max-width: 350px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: Raleway;
+	font-size: 45px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 20px;
+    color: #2D2A3F;
+
+
+}
+
+#diffdesc {
+    position:relative;
+    top:-40px;
+    font-family: Raleway;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 12px;
+}
+
+
+
+.compimage {
+    
+    float:left;
+    
+}
+
+#exploreButton {
+    background-color:#ffffff;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	border:1px solid #2D2A3F;
+	display:inline-block;
+	cursor:pointer;
+	color:#2D2A3F;
+    font: normal normal normal 14px/1.4em raleway,sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-size:14px;
+	padding:15px 105px;
+	text-decoration:none;
+    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+#exploreButton:hover {
+    background-color:#eb734d;
+    border:1px solid #eb734d;
+    color: #ffffff;
+    text-shadow: none;
+}
+#exploreButton:active {
+    position:relative;
+	top:1px;
+}
+
+#count-container {
+    position: relative;
+    top: 50px;
+}
+
+.numbers-largefont {
+    font-family: raleway, sans-serif;
+    font-size: 100px;
+    font-weight: normal;
+}
+
+.numbers-smallfont {
+    font-size:12px;
+    letter-spacing: 0.1em;
+    font-weight: normal;
+    font-style: normal;
+}
+
+#press-container {
+    position: relative;
+    top: 60px;
+    height: 800px;
+}
+
+
+
+#press-container2 {
+    position: relative;
+    width: 900px;
+    top: -20px;
+    background-color:#eee;
+    height: 400px;
+}
+
+#press-list-header {
+    font-size: 30px;
+    color: #eb734d;
+    line-height: 1em;
+    text-align: center;
+    letter-spacing: 0.05em;
+    word-wrap: break-word;
+    font-weight: bold;
+}
+
+.newslink {
+    font-family: Raleway;
+	font-size: 14px;
+	font-style: italic;
+	font-variant: normal;
+    text-decoration: underline;
+	font-weight: bold;
+	line-height: 20px;
+    color: #2d2a3f;
+}
