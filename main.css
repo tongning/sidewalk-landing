@@ -216,6 +216,9 @@ video#bgvid {
 }
 
 #header-container {
+    position: relative;
+    top: -11px;
+    background-color: #fff;
     max-width:800px;
 }
 
