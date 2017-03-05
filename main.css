@@ -127,7 +127,7 @@ video#bgvid {
 #vidbanner {
     position:relative;
     overflow:hidden;
-    top: 0px;
+    top: -10px;
     width: 100%;
     display:flex;
     justify-content: center;
@@ -137,9 +137,9 @@ video#bgvid {
 
 #graybar {
     position: relative;
-    top: 0px;
+    top: -10px;
     height: 50px;
-    background-color: #ccc;
+    background-color: #2d2a3f;
     
 }
 
@@ -151,7 +151,7 @@ video#bgvid {
     margin-right: auto;
     text-align: center;
     vertical-align: middle;
-    color: #2d2a3f;
+    color: #fff;
     font-weight: bold;
     letter-spacing: 0.1em;
     
@@ -501,4 +501,23 @@ float: center;
 #banner {
   
     max-width: 1000px;
+}
+
+#header {
+    background-color: #fff;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+    max-height: 90px;
+
+    
+}
+
+#topbuttons {
+    position: relative;
+    top: -10px;
+}
+
+.verticalbar {
+    color: #FBD78B;
 }
