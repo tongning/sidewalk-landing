@@ -521,3 +521,42 @@ float: center;
 .verticalbar {
     color: #FBD78B;
 }
+
+.myButton2 {
+    background-color:rgba(0, 0, 0, 0.0);
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	border:1px solid #fbd78b;
+	display:inline-block;
+	cursor:pointer;
+	color:#fbd78b;
+    font: normal normal normal 14px/1.4em raleway,sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-size:14px;
+	padding:15px 105px;
+    
+	text-decoration:none;
+    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+.myButton2:hover {
+    background-color:#eb734d;
+    border:1px solid #eb734d;
+    color: #ffffff;
+    text-shadow: none;
+}
+.myButton2:active{
+    position:relative;
+	top:1px;
+}
+
+#exploremaplink {
+    color: #fff;
+    text-decoration:underline;
+    font-family: raleway;
+    font-size: 10px;
+    line-height:1.8em;
+    text-align:center;
+    position:relative;
+    left: -30px;
+}
