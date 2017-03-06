@@ -503,7 +503,8 @@ float: center;
 }
 
 #banner {
-  
+    width:100%;
+    height:100%;
     max-width: 1000px;
     position: relative;
     margin-left: auto;
