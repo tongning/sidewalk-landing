@@ -2,6 +2,28 @@
 * Style tweaks
 * --------------------------------------------------
 */
+
+/* General styles */
+@font-face {
+	font-family: adelle-semibold;
+	src: url(fonts/Adelle/adelle_semibold-webfont.ttf);
+}
+
+@font-face {
+	font-family: adelle-regular;
+	src: url(fonts/Adelle/adelle_reg-webfont.ttf);
+}
+
+@font-face {
+	font-family: adelle-light;
+	src: url(fonts/Adelle/adelle_light-webfont.ttf);
+}
+
+@font-face {
+	font-family: adelle-heavy;
+	src: url(fonts/Adelle/adelle_heavy-webfont.ttf);
+}
+
 html,
 body {
     overflow-x: hidden; /* Prevent scroll on narrow devices */
@@ -141,6 +163,7 @@ video#bgvid {
     top: -10px;
     height: 50px;
     background-color: #2d2a3f;
+    font-family: adelle-regular;
     
 }
 
@@ -184,12 +207,14 @@ video#bgvid {
 }
 
 #description {
-    font-family: Raleway;
-	font-size: 12px;
+    font-family: adelle-regular;
+	font-size: 14px;
+    line-height: 1.8em;
+    letter-spacing: 0.1em;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: normal;
-	line-height: 15px;
+	
     color: #fff;
 }
 
@@ -279,12 +304,14 @@ float: center;
 }
 
 #content-text {
-    font-family: Raleway;
+    font-family: adelle-regular;
 	font-size: 14px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: normal;
-	line-height: 20px;
+	line-height: 1.8em;
+    letter-spacing: 0.1em;
+    
     
 }
 
@@ -449,7 +476,7 @@ float: center;
     display: table-cell;
     vertical-align: middle;
   line-height: normal;
-    font-family: Raleway;
+    font-family: adelle-regular;
     word-wrap: break-word;
     
 }
@@ -572,4 +599,11 @@ float: center;
 #menubutton {
     position: relative;
     top: 15px;
+}
+
+.stepdescription {
+    font-family: adelle-regular;
+    line-height: 1.9em;
+    font-size: 14px;
+    letter-spacing: 0.05em;
 }
