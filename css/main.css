@@ -6,22 +6,22 @@
 /* General styles */
 @font-face {
 	font-family: adelle-semibold;
-	src: url(fonts/Adelle/adelle_semibold-webfont.ttf);
+	src: url(../fonts/Adelle/adelle_semibold-webfont.ttf);
 }
 
 @font-face {
 	font-family: adelle-regular;
-	src: url(fonts/Adelle/adelle_reg-webfont.ttf);
+	src: url(../fonts/Adelle/adelle_reg-webfont.ttf);
 }
 
 @font-face {
 	font-family: adelle-light;
-	src: url(fonts/Adelle/adelle_light-webfont.ttf);
+	src: url(../fonts/Adelle/adelle_light-webfont.ttf);
 }
 
 @font-face {
 	font-family: adelle-heavy;
-	src: url(fonts/Adelle/adelle_heavy-webfont.ttf);
+	src: url(../fonts/Adelle/adelle_heavy-webfont.ttf);
 }
 
 html,
@@ -41,7 +41,7 @@ footer {
  */
 .navbar-brand {
     font-size: 24px;
-    
+
 }
 
 .navbar-container {
@@ -80,7 +80,7 @@ footer {
     -webkit-transition:  0.8s;
 }
 .navbar-nav {
-    
+
 }
 .navbar.fixed-theme {
     -webkit-box-shadow: 0 8px 6px -6px #999;
@@ -134,16 +134,16 @@ footer {
     letter-spacing: 0.1em;
     display: table-cell;
     vertical-align: middle;
-    
+
 }
 
 
-video#bgvid { 
+video#bgvid {
     position: absolute;
 
     min-width:100%;
-    
-    background-size: cover; 
+
+    background-size: cover;
     left: 0px;
 }
 
@@ -155,7 +155,7 @@ video#bgvid {
     display:flex;
     justify-content: center;
     min-height:500px;
-    
+
 }
 
 #graybar {
@@ -164,7 +164,7 @@ video#bgvid {
     height: 50px;
     background-color: #2d2a3f;
     font-family: adelle-regular;
-    
+
 }
 
 #bartext {
@@ -178,7 +178,7 @@ video#bgvid {
     color: #fff;
     font-weight: bold;
     letter-spacing: 0.1em;
-    
+
 }
 
 #computerimage {
@@ -190,7 +190,7 @@ video#bgvid {
 }
 
 .tagline {
-    
+
     font-family: Raleway;
 	font-size: 45px;
 	font-style: normal;
@@ -214,7 +214,7 @@ video#bgvid {
 	font-style: normal;
 	font-variant: normal;
 	font-weight: normal;
-	
+
     color: #fff;
 }
 
@@ -268,7 +268,7 @@ video#bgvid {
 
 #steps1 {
     padding-top: 100px;
-  
+
 }
 
 .stepnumber {
@@ -290,7 +290,7 @@ video#bgvid {
 	font-weight: bold;
 	line-height: 58px;
     color: #2D2A3F;
-    
+
 }
 
 
@@ -298,9 +298,9 @@ video#bgvid {
 
 
 #step2right {
-  
+
 float: center;
-  
+
 }
 
 #content-text {
@@ -311,8 +311,8 @@ float: center;
 	font-weight: normal;
 	line-height: 1.8em;
     letter-spacing: 0.1em;
-    
-    
+
+
 }
 
 #algdessc {
@@ -336,7 +336,7 @@ float: center;
 }
 
 .im-centered2 {
- 
+
      margin: auto; max-width: 350px;
     text-align: center;
     padding-top: 50px;
@@ -365,9 +365,9 @@ float: center;
 
 
 .compimage {
-    
+
     float:left;
-    
+
 }
 
 #exploreButton {
@@ -398,16 +398,16 @@ float: center;
 }
 
 #count-container {
-    
+
     position: relative;
     top: 50px;
-    background-image: url(orange-map.PNG); 
+    background-image: url(../assets/orange-map.PNG);
     width:100%;
     position:relative;
     min-height: 500px;
     display: flex;
     align-items: center;
-        
+
 }
 
 .numbers-largefont {
@@ -457,7 +457,7 @@ float: center;
     text-decoration: underline;
 	font-weight: bold;
 	line-height: 20px;
-   
+
     color: #2d2a3f;
 }
 
@@ -467,7 +467,7 @@ float: center;
     padding-left: 20px;
     padding-right: 20px;
     box-shadow: 5px 5px 30px #bbb;
-    background-image: url(quote.PNG);
+    background-image: url(../assets/quote.PNG);
     background-size: 430px 230px;
     background-repeat: no-repeat;
     text-align: center;
@@ -478,7 +478,7 @@ float: center;
   line-height: normal;
     font-family: adelle-regular;
     word-wrap: break-word;
-    
+
 }
 
 .quoteauthor {
@@ -489,22 +489,22 @@ float: center;
     color: #eb734d;
     font-size: 12px;
     line-height: 1.9em;
-    
+
 }
 
 #footer-container {
     position: relative;
     width: 100%;
     min-height: 300px;
-    background-image: url(footer-image.webp);
+    background-image: url(../assets/footer-image.webp);
     background-size: cover;
      display: flex; justify-content: center;
     color: #ccc;
     font-size: 12px;
     line-height: 1.8em;
     font-family: raleway;
-    
-    
+
+
 }
 
 .footerheader {
@@ -513,7 +513,7 @@ float: center;
     font-size: 12px;
     line-height: 2.1em;
     letter-spacing: 0.05em;
-    
+
 }
 
 #info-footer {
@@ -526,7 +526,7 @@ float: center;
     font-size: 12px;
     color: #2d2a3f;
     line-height: 1.6em;
-    
+
 }
 
 #banner {
@@ -545,7 +545,7 @@ float: center;
     box-shadow: 0 8px 6px -6px #999;
     max-height: 110px;
 
-    
+
 }
 
 #topbuttons {
@@ -570,7 +570,7 @@ float: center;
 	font-family: 'Raleway', sans-serif;
 	font-size:14px;
 	padding:15px 105px;
-    
+
 	text-decoration:none;
     transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
 }
